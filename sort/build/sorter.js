@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+;
 var Sorter = /** @class */ (function () {
     function Sorter(collection) {
         this.collection = collection;
@@ -13,9 +14,6 @@ var Sorter = /** @class */ (function () {
                 }
             }
         }
-    };
-    Sorter.prototype.print = function () {
-        console.log(this.collection);
     };
     return Sorter;
 }());
